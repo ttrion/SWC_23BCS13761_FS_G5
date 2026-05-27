@@ -1,0 +1,14 @@
+body {
+  font-family: Arial;
+  padding: 20px;
+}
+
+textarea {
+  width: 300px;
+  height: 100px;
+  padding: 10px;
+}
+
+.warning {
+  color: red;
+}
