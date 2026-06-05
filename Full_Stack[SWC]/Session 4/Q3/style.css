@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+.container {
+    max-width: 600px;
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.search-input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.suggestions {
+    border: 1px solid #ddd;
+    border-top: none;
+}
+
+.suggestion {
+    padding: 10px;
+    cursor: pointer;
+    background: #f9f9f9;
+    border-top: 1px solid #ddd;
+}
+
+.suggestion:hover {
+    background: #eee;
+}
+
+.active {
+    background: #ddd;
+    font-weight: bold;
+}

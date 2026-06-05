@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background: white;
+    color: black;
+    transition: 0.3s;
+}
+
+header {
+    max-width: 600px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#stories {
+    max-width: 600px;
+    margin: 20px auto;
+    display: flex;
+    gap: 15px;
+    overflow-x: auto;
+}
+
+.story {
+    text-align: center;
+}
+
+.story-circle {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border: 3px solid hotpink;
+    background: #ddd;
+}
+
+#feed {
+    max-width: 600px;
+    margin: auto;
+}
+
+.post {
+    padding: 15px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background: #f9f9f9;
+}
+
+.post img {
+    width: 100%;
+    margin: 10px 0;
+    border-radius: 5px;
+}
+
+#loader {
+    text-align: center;
+    padding: 20px;
+    font-weight: bold;
+}
+
+.hidden {
+    display: none;
+}
+
+button {
+    padding: 8px 12px;
+    cursor: pointer;
+}
+
+/* Dark Mode */
+
+body.dark {
+    background: #121212;
+    color: white;
+}
+
+body.dark .post {
+    background: #1f1f1f;
+    border-color: #444;
+}
+
+body.dark button {
+    background: #333;
+    color: white;
+}

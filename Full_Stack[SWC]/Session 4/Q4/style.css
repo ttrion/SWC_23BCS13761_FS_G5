@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: #141414;
+    color: white;
+}
+
+.hero {
+    height: 450px;
+    background-image: url("https://images.unsplash.com/photo-1489599849927-2ee91cede3ba");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.overlay {
+    height: 100%;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.overlay h1 {
+    margin-bottom: 10px;
+}
+
+.overlay p {
+    max-width: 500px;
+}
+
+.buttons button {
+    margin-right: 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+.row {
+    display: flex;
+    gap: 10px;
+    overflow-x: auto;
+}
+
+.card {
+    min-width: 180px;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.08);
+}
+
+.card img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.card p {
+    text-align: center;
+}
