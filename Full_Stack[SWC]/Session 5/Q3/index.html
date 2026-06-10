@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Upload Preview</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <form id="uploadForm">
+        <h2>Image Upload</h2>
+
+        <div class="form-group">
+            <label>Select Image</label>
+            <input type="file" id="imageInput" accept="image/*">
+            <small class="error" id="imageError"></small>
+        </div>
+
+        <div class="form-group">
+            <img id="preview" alt="Image Preview">
+        </div>
+    </form>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
